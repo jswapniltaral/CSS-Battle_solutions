@@ -1,0 +1,126 @@
+<div class="con1 ">
+  <div class="semi1">
+    <div class="inner1">
+      
+    </div>
+  </div>
+  <div class="semi4">
+    <div class="inner4">
+      
+    </div>
+  </div>
+</div>
+
+<div class="con2 ">
+  <div class="bar1">
+  </div>
+  <div class="semi2">
+    <div class="inner2">
+      
+    </div>
+  </div>
+  <div class="semi3">
+    <div class="inner3">
+      
+    </div>
+  </div>
+  <div class="bar2"></div>
+</div>
+
+
+<style>
+  *{
+    background-color:#B6EBE7;
+  }
+  .con1{
+    background-color:transparent;
+    height:172px;
+    width:400px;
+     display:inline;
+    display:flex;
+  }
+  .con2{
+    background-color:transparent;
+     height:120px;
+    width:400px;
+    display:flex;
+    
+  }
+   .bar1{
+     background-color:#5E2BB7;
+    height:120px;
+    width:30px;
+    margin-left:2px;
+  }
+   .semi1{
+    background-color:#9382E4;
+    height:50px;
+    width:100px;
+    border-radius:200px 200px 0px 0px;
+    margin-top:122px;
+    margin-left:2px;
+    display:flex;
+  }
+  .inner1{
+    background-color:#B6EBE7;
+    height:20px;
+    width:40px;
+    border-radius:500px 500px 0px 0px;
+    margin-top:30px;
+    margin-left:30px;
+  }
+  .semi2{
+    height:50px;
+    width:100px;
+    background-color:#5E2BB7;
+    border-radius: 0px 0px 200px 200px;
+    margin-left:40px;
+  }
+  .inner2{
+    background-color:#B6EBE7;
+    height:20px;
+    width:40px;
+    border-radius: 0px 0px 200px 200px;
+    margin-left:30px;
+  }
+   .semi3{
+    height:50px;
+    width:100px;
+    background-color:#5E2BB7;
+    border-radius: 0px 0px 200px 200px;
+    margin-left:40px;
+  }
+  .inner3{
+    background-color:#B6EBE7;
+    height:20px;
+    width:40px;
+    border-radius: 0px 0px 200px 200px;
+    margin-left:30px;
+  }
+  .semi4{
+    background-color:#9382E4;
+    height:50px;
+    width:100px;
+    border-radius:200px 200px 0px 0px;
+     margin-top:122px;
+    margin-left:180px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+  }
+  .inner4{
+    background-color:#B6EBE7;
+    height:20px;
+    width:40px;
+    border-radius:500px 500px 0px 0px;
+  }
+  .bar2{
+     background-color:#5E2BB7;
+    height:120px;
+    width:30px;
+    margin-left:40px;
+    
+  }
+  
+  
+</style>
