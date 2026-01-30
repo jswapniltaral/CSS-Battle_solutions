@@ -1,0 +1,50 @@
+<div class="main">
+  <div class="outer">
+    <div class="inner">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#F3EAD2;
+  }
+.main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.outer{
+    height:180px;
+    width:160px;
+    background-color:#4C455B;
+   margin-top:60px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  }
+.inner{
+    height:120px;
+    width:100px;
+    background-color:#F3EAD2;
+}
+.circle1{
+    height:50px;
+    width:80px;
+    background-color:#4C455B;
+    border-radius:0px 0px 100px 100px;
+    margin-left:10px;
+}
+.circle2{
+    height:55px;
+    width:80px;
+    background-color:#4C455B;
+    border-radius:100px 100px 00px 00px;
+    margin-left:10px;
+  margin-top:20px;
+}
+</style>
