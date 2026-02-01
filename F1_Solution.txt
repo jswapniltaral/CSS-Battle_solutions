@@ -1,0 +1,59 @@
+<div class="main">
+  <div class="box1"></div>
+  <div class="container">
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </div>
+  <div class="box4"></div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    borrder:border-box;
+    background-color:#FADE8B;
+  }
+  .box1{
+    background-color:#DE9473;
+    height:80px;
+    width:80px;
+    border : 10px solid #000000;
+    margin-left:150px;
+    margin-top:20px;
+  }
+  .container{
+    background-color:black;
+    height:100px;
+    width:400px;
+    position:fixed;
+    bottom:100px;
+    background-color:transparent;
+  }
+  .box2{
+    background-color:transparent;
+    height:80px;
+    width:80px;
+    border : 10px solid #000000;
+    margin-left:70px;
+  }
+  .box3{
+     background-color:transparent;
+    height:80px;
+    width:80px;
+    border : 10px solid #000000;
+    margin-left:70px;
+    position:relative;
+    bottom:100px;
+    left:160px
+  }
+  .box4{
+     background-color:#DE9473;
+    height:80px;
+    width:80px;
+    border : 10px solid #000000;
+    margin-left:150px;
+    margin-top:60px;
+  }
+  }
+</style>
