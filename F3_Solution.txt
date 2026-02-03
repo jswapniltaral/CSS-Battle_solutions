@@ -1,0 +1,49 @@
+<div class="main">
+  <div class="outer">
+    <div class="inner">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box1"></div>
+    </div>
+  </div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#556D7F;
+  }
+  .main{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .outer{
+    height:230px;
+    width:200px;
+    background-color:#D99795;
+     display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .inner{
+    height:170px;
+    width:140px;
+    background-color:#556D7F;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    align-items:center;
+  }
+  .box1{
+    height:30px;
+    width:120px;
+    background-color:#D99795;
+  }
+  .box2{
+    height:30px;
+    width:100px;
+    background-color:#D99795;
+  }
+</style>
