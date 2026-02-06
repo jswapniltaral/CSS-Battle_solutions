@@ -1,0 +1,39 @@
+<div class="main">
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <div class="box3"></div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#37B4BD;
+  }
+  .main{
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .box1{
+    height:20px;
+    width:20px;
+    background-color:#FAE29E;
+    transform:rotate(30deg);
+     margin-top:80px;
+  }
+  .box2{
+    height:40px;
+    width:40px;
+    background-color:#FAE29E;
+    transform:rotate(60deg);
+  }
+  .box3{
+    height:80px;
+    width:80px;
+    background-color:#FAE29E;
+  }
+  
+</style>
