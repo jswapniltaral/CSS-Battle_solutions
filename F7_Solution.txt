@@ -1,0 +1,58 @@
+<div  class="main">
+  <div  class="left color"></div>
+  <div  class="mid">
+    <div class="bar color"></div>
+    <div class="bar2" >
+      <div class="halfc"></div>
+      <div class="halfc"></div>
+      <div class="halfc"></div>
+    </div>
+  </div>
+  <span  class="right color" ></span>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#8877DC;
+  }
+  .main{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:300px;
+  }
+.left{
+  height:200px;
+  width:30px;
+  margin-left:5px;
+}
+.mid{
+  height:200px;
+  width:250px;
+}
+  .bar{
+  height:60px;
+  width:250px;
+  }
+  .bar2{
+   height:60px;
+  width:250px;
+    display:flex;
+    justify-content:space-between;
+  }
+  .halfc{
+    height:30px;
+    width:60px;
+    background-color:#FFE08A;
+    border-radius: 0px 0px 100px 100px;
+  }
+.right{
+   height:200px;
+  width:30px;
+  margin-right:5px;
+  }
+  .color{
+     background-color:#192865;
+  }
+</style>
