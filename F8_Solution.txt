@@ -1,0 +1,43 @@
+<div class="main">
+  <div class="circle"></div>
+  <div class="box">
+    <div class="circle1"></div>
+  </div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#DC7778;
+  }
+  .main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px
+  }
+  .circle{
+    height:180px;
+    width:180px;
+    border-radius:50%;
+    background-color:#674343;
+  }
+  .box{
+    height:100px;
+    width:100px;
+      background-color:#DC7778;
+    position:absolute;
+    top:150;
+    left:200;
+  }
+  .circle1{
+     height:80px;
+    width:80px;
+      background-color:#674343;
+     border-radius:50%;
+    position:relative;
+   left:5;
+    top:5;
+  }
+</style>
