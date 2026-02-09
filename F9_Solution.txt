@@ -1,0 +1,130 @@
+<div class="main">
+  <div class="container1">
+    <div class="circle  ps"></div>
+     <div class="square ps1"></div>
+    <div class="circle ps2"></div>
+     <div class="square ps3"></div>
+    <div class="circle ps4"></div>
+     <div class="square ps5"></div>
+  </div>
+   <div class="container1">
+     <div class="square ps6"></div>
+     <div class="circle  ps7"></div>
+       <div class="square ps8"></div>
+     <div class="circle  ps9"></div>
+       <div class="square ps10"></div>
+     <div class="circle  ps11"></div>
+   </div>
+   <div class="container1">
+         <div class="circle  ps12"></div>
+     <div class="square ps13"></div>
+    <div class="circle ps14"></div>
+     <div class="square ps15"></div>
+    <div class="circle ps16"></div>
+     <div class="square ps17"></div>
+   </div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#8BFA94;
+  }
+  .main{
+    height:300px;
+  }
+  .container1{
+    height:55px;
+    width:90vw;
+    background-color:#8BFA94;
+    position:relative;
+    top:70px;
+    left:20px;
+    display:flex;
+  }
+  .circle{
+     height:30px;
+    width:30px;
+    border-radius:50%;
+     background-color:#D76159;
+    position:relative;
+  }
+  .ps{
+    top:5px;
+    left:15px;
+  }
+  .square{
+     height:30px;
+    width:30px;
+     background-color:#D76159;
+    position:relative;
+  }
+  .ps1{
+     top:5px;
+    left:45px;
+  }
+  .ps2{
+    top:5px;
+    left:75px;
+  }
+.ps3{
+    top:5px;
+    left:105px;
+  }
+  .ps4{
+    top:5px;
+    left:135px;
+  }
+  .ps5{
+    top:5px;
+    left:165px;
+  }
+  .ps6{
+    top:10px;
+    left:15px;
+  }
+  .ps7{
+    top:10px;
+    left:45px;
+  }
+ .ps8{
+    top:10px;
+    left:75px;
+  }
+  .ps9{
+      top:10px;
+    left:105px;
+  }
+  .ps10{
+      top:10px;
+    left:135px;
+  }
+  .ps11{
+    top:10px;
+    left:165px;
+  }
+   .ps12{
+     top:15px;
+    left:15px;
+  }
+  .ps13{
+    top:15px;
+    left:45px;
+  }
+.ps14{
+    top:15px;
+    left:75px;
+  }
+  .ps15{
+    top:15px;
+    left:105px;
+  }
+  .ps16{
+    top:15px;
+    left:135px;
+  }
+  .ps17{
+    top:15px;
+    left:165px;
+  }
+</style>
