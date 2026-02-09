@@ -11,4 +11,4 @@ This repository contains my daily CSS Battle practice solutions.
 - Each folder contains one CSS Battle target
 - Pure HTML + CSS only
 
-🛠 Skills: CSS, Positioning, Flexbox, Shapes, Gradients
+Skills: CSS, Positioning, Flexbox, Shapes, Gradients
