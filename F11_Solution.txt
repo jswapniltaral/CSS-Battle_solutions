@@ -1,0 +1,36 @@
+<div class="m ps">
+<div class="c1 ps e"><div class="c2 e"></div><div class="v ex"></div><div class="h ex"></div>
+ </div></div>
+<style>
+*{
+    padding:0;
+    margin:0;
+    background-color:#49C85B;
+  }
+.m{
+    height:100vh; }
+.ps{
+     display:flex;
+    justify-content:center;
+    align-items:center;}
+.c1{
+    height:140;
+    width:140;
+    border:20px solid #30230A;}
+.e{
+    background-color:#49C85B;
+     border-radius:50%; }
+.c2{
+    height:60;
+    width:60;
+    border:20px solid #FFFFFF; }
+.v{
+    height:200;
+    width:20;}
+.h{
+    height:20;
+    width:100; }
+.ex{
+    position:absolute;
+    background-color:#49C85B;}
+</style>
