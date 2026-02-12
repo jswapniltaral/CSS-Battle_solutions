@@ -1,0 +1,48 @@
+<div class="main ps">
+    <div class="c ps"></div>
+    <div class="box ps ">
+    <div class="b ps size"></div>
+    <div class="b1 ps size"></div>
+  </div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#B6EBE7;
+  }
+  .size{
+    width:280px;
+    height:10px;
+  }
+  .ps{
+      position:absolute;
+  }
+  .main{
+    top:100px;
+    left:30px;
+    height:300px;
+  }
+  .box{
+    height:63.2vh;
+    width:85vw;
+    background-color:#7060C0;
+  }
+  .b
+  {
+    top:30px;
+    left:30px;
+  }
+  .b1{
+    top:100px;
+    left:30px;
+  }
+  .c{
+    bottom:280px;
+    left:140px;
+    height:50px;
+    width:60px;
+    background-color:#7060C0;
+    border-radius:100px 100px 0 0;
+  }
+</style>
