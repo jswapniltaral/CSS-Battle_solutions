@@ -1,0 +1,45 @@
+<div class="m">
+  <div class="b1"></div>
+  <div class="cc"></div>
+  <div class="c1 c"><div class="ic1"></div></div>
+  <div class="c2 c"><div class="ic1"></div></div>
+</div>
+<style>
+*{
+  padding:0px;
+  margin:0px;
+  background-color:#2F434E;
+}
+.b1{
+  height:73.5vh;
+  width:12.5vw;
+  background-color:#0098D1;
+  position:absolute;
+  top:39.5px;
+  left:115px;
+}
+ .c{
+     width: 50px;
+  height: 100px;
+  background-color:#0098D1;  
+  border-radius: 0 100px 100px 0;
+   position:absolute;
+  }
+.c1{
+  top:39.5px;
+  left:235px;
+}
+.c2{
+  top:160px;
+  left:235px;
+}
+.ic1{
+  width: 20px;
+  height:40px;
+  background-color:#2F434E;  
+  border-radius: 0 100px 100px 0;
+  position:absolute;
+  top:30
+}
+</style>
+  
