@@ -1,0 +1,37 @@
+<div class="main ps">
+  <div class="b1 "></div>
+  <div class="b2"></div>
+  <div class="b3"></div>
+</div>
+<style>
+  *{
+    paddding:0px;
+    margin:0px;
+    background-color:#FFF9F1;
+  }
+  .ps{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300;
+  }
+  .b1{
+    height:70px;
+    width:140px;
+    background-color:#FF5C21;
+    position:relative;
+    left:5;
+  }
+  .b2{
+    height:30px;
+    width:90px;
+    background-color:#030504;
+  }
+  .b3{
+    height:70px;
+    width:140px;
+    background-color:#2869FE;  
+    position:relative;
+    right:5;
+  }
+</style>
