@@ -1,0 +1,54 @@
+<div class="main">
+  <div class="r1 ps al">
+    <div class="r2"></div>
+      <div class="r1 ps1 al">
+    <div class="r2"></div>
+     <div class="r3 al">
+    <div class="r4"></div>
+  </div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#11092D;
+  }
+  .ps{
+    position:absolute;
+    top:40;
+    left:35;
+  }
+  .ps1{
+    position:absolute;
+    left:220;
+  }
+  .r1{
+    height:110px;
+    width:110px;
+    background-color:#4A9A86;
+  }
+  .r2{
+    height:50px;
+    width:50px;
+    background-color:#FFCA00;
+  }
+  .r3{
+    height:110px;
+    width:110px;
+    background-color:#FFCA00;
+    position:absolute;
+    top:110;
+    right:110;
+  }
+  .r4{
+    height:50px;
+    width:50px;
+    background-color:#4A9A86;
+  }
+  .al{
+     display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+</style>
