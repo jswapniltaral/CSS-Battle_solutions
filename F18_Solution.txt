@@ -1,0 +1,48 @@
+<div class="main">
+  <div class="c1">
+    <div class="cc"></div>
+  </div>
+  <div class="c2">
+    <div class="ccc"></div>
+  </div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#FEF6E2;
+  }
+  .c1{
+    height:42.5vh;
+    width:260px;
+    background-color:#A82828;
+    border-radius: 0 0 200px 200px;
+    position:absolute;
+    top:40;
+    left:70;
+    display:flex;
+    justify-content:center;
+  }
+  .cc{
+    height:80;
+    width:160;
+    border-radius:0 0 100px 100px;
+  }
+  .c2{
+   height:31vh;
+    width:200px;
+   border-radius:600px 600px 100px 100px;
+    background:#A82828;
+     position:absolute;
+    top:130;
+    left:70;
+    border:30px solid #A82828;
+  }
+  .ccc{
+     height:120;
+    width:160;
+    border-radius:600px 600px 100px 100px;
+    margin-top:20px;
+    margin-left:20
+  }
+</style>
