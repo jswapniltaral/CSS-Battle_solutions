@@ -1,0 +1,53 @@
+<div class="main">
+  <div class="t"></div>
+  <div class="t ps1"></div>
+  <div class="rec"></div>
+  <div class="t ps"></div>
+</div>
+<style>
+  *{
+    margin:0px;
+    padding:0px;
+    background-color:#2F434E;
+  }
+  .t{
+    height:120px;
+    width:100px;
+    background-color:#6AC09E;
+    clip-path:polygon(0% 0%, 80% 50%, 0% 100%);
+    position:absolute;
+    left:80px;
+    top:30px
+  }
+  .t1{
+    height:120px;
+    width:100px;
+    background-color:#6AC09E;
+    clip-path:polygon(0% 0%, 80% 50%, 0% 100%);
+    position:absolute;
+  }
+  .rec{
+    height:240px;
+    width:80px;
+    background-color:#6AC09E;
+    position:absolute;
+    left:160px;
+    top:30px;
+    clip-path: polygon(0% 25%,100% 0%,100% 100%,0% 75%);
+  }
+   .t{
+    height:120px;
+    width:100px;
+    background-color:#6AC09E;
+    clip-path:polygon(0% 0%, 80% 50%, 0% 100%);
+    position:absolute;
+  }
+  .ps1{
+      left:80px;
+    top:150px;
+  }
+  .ps{
+    left:240px;
+    top:90px
+  }
+</style>
