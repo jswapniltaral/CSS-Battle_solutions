@@ -1,0 +1,46 @@
+<div class="">
+  <div class="c p">  <div class="s d"></div></div>
+  <div class="c p1"> <div class="s d1"></div></div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#B6EBE7;
+    box-sizing:border-box;
+  }
+  .c{
+    height:66.5vh;
+    width:50vw;
+    background-color:#B6EBE7;
+    border-top:6.3rem solid #5370D9;
+    position:absolute;
+  }
+  .p{
+     border-right:6.3rem solid #5370D9;
+     border-radius:0 100rem 0 0;
+     top:50;
+     left:20;
+  }
+  .p1{
+     top:50;
+    left:180;
+   border-left:6.29rem solid #5370D9;
+    border-radius:100rem 0 0 0;
+  }
+  .s{
+    height:10vh;
+    background-color:#5370D9;
+    position:absolute;
+    top:70;
+  }
+.d{
+     width:7.2vw;
+    border-radius:0 100rem 0 0;
+}
+.d1{
+      width:7.5vw;
+     left:70;
+      border-radius:100rem 0 0 0;
+}
+</style>
