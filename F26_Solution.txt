@@ -1,0 +1,70 @@
+<div class="main">
+  <div class="con">
+    <div class="bar4">
+      <div class="b1"></div>
+      <div class="b1"></div>
+       <div class="b1"></div>
+       <div class="b1"></div>
+    </div>
+    <div class="bar3">
+      <div class="b1"></div>
+       <div class="b1"></div>
+       <div class="b1"></div>
+    <div class="box"></div>
+  </div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+    background-color:#DB5EAD; 
+  }
+  .main{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .con{
+     height:86.5vh;
+     width:65vw;
+     background-color:#12219A;
+    }
+  .bar4{
+    height:80px;
+    width:100%;
+    background-color:#12219A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   gap:20px;
+  }
+  .b1{
+    height:40px;
+    width:40px;
+    background-color:#DB5EAD;
+  }
+  .bar3{
+   height:69.4%;
+   width:80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    gap:20px;
+    background-color:#12219A;
+    border-right:50px solid #DB5EAD;
+  }
+  .b1{
+    height:40px;
+    width:40px;
+    background-color:#DB5EAD;
+  }
+  .box{
+    height:50px;
+    width:130px;
+    background-color:#DB5EAD;
+    position:absolute;
+    left:200px;
+  }
+</style>
