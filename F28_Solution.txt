@@ -1,0 +1,37 @@
+<div class="main">
+  <div class="b"></div>
+  <div class="c"></div>
+  <div class="box1"></div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100vh;
+    background-color:#0098D1;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    gap:80px;
+  }
+  .b{
+    height:53.5vh;
+    width:40vw;
+    background-color:#2F434E;
+  }
+  .c{
+    height:80vh;
+    width:60vw;
+    border-radius:50%;
+    background-color:#0098D1;
+    position:absolute;
+    bottom:30
+  }
+  .box1{
+    height:53.5vh;
+    width:40vw;
+    background-color:#2F434E;
+  }
+</style>
