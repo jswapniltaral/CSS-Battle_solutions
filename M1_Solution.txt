@@ -1,0 +1,48 @@
+<div class="main">
+  <div class="b p"></div>
+   <div class="b p1"></div>
+  <div class="box"><div>
+     <div class="b p2"></div>
+   <div class="b p3"></div>
+  <div>
+  <style>
+    *{
+      padding:0px;
+      margin:0px;
+    }
+    .main{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background-color:#AC342E;
+    }
+   .box{
+     height:53.2vh;
+     width:80vw;
+     background-color:#FFEDB7;
+   }
+    .b{
+      height:50px;
+      width:50px;
+      background-color:#FFEDB7;
+      margin:10px;
+      position:absolute;
+    }
+    .p{
+      left:80;
+      top:10px;
+    }
+    .p1{
+      left:300;
+      top:10px;
+    }
+    .p2{
+      left:30;
+      top:220px;
+    }
+    .p3{
+      left:250;
+      top:220px;
+    }
+  </style>
