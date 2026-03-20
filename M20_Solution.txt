@@ -1,0 +1,72 @@
+<div class="main">
+  <div class="s1"></div>
+  <div class="s2"></div>
+  <div class="s3"></div>
+  <div class="s4"></div>
+  <div class="b1"></div>
+  <div class="b2"></div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100%;
+    background-color:#352939;
+  }
+  .s1{
+    height:80px;
+    width:80px;
+    background-color:#A76DFF;
+    border-radius:0px 0px 100px 100px;
+    position:absolute;
+    top:35;
+    left:160;
+  }
+  .s2{
+    height:80px;
+    width:80px;
+    background-color:#A76DFF;
+    border-radius:100px 0px 0px 100px;
+    position:absolute;
+    top:110;
+    left:235;
+  }
+  .s3{
+    height:80px;
+    width:80px;
+    background-color:#A76DFF;
+    border-radius:100px 100px 0px 0px;
+    position:absolute;
+    top:185;
+    left:160;
+  }
+  .s4{
+    height:80px;
+    width:80px;
+    background-color:#A76DFF;
+    border-radius:0px 100px 100px 0px;
+    position:absolute;
+    top:110;
+    left:85;
+  }
+  .b1{
+    height:200px;
+    width:10px;
+    background-color:#FADE8B;
+    transform:rotate(135deg);
+    position:absolute;
+    top:50;
+    left:195;
+  }
+  .b2{
+    height:200px;
+    width:10px;
+    background-color:#FADE8B;
+    transform:rotate(45deg);
+    position:absolute;
+    top:50;
+    left:195;
+  }
+</style>
