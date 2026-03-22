@@ -1,0 +1,39 @@
+<div class="main">
+  <div class="crc1"></div>
+  <div class="rec"></div>
+  <div class="crc2"></div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100%;
+    background-color:#F3AC3C;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .crc1{
+    height:80px;
+    width:80px;
+    background-color:#FCF3F0;
+    border-radius: 100px 100px 0px 100px;
+    border:30px solid #2D696F;
+    margin-bottom:110px
+  }
+  .crc2{
+    height:80px;
+    width:80px;
+    background-color:#FCF3F0;
+    border-radius: 0px 100px 100px 100px;
+    border:30px solid #2D696F;
+    margin-top:110px;
+  }
+  .rec{
+    height:30px;
+    width:100px;
+    background-color:#2D696F
+  }
+</style>

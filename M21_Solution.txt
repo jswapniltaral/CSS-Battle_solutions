@@ -1,0 +1,66 @@
+<div class="main">
+  <div class="b1">  
+  <div class="c1"></div>
+  <div class="c1"></div>
+  <div class="c1"></div></div>
+  <div class="b2">
+      <div class="c1"></div>
+      <div class="c1"></div>
+     <div class="rec"></div>
+      <div class="c1"></div>
+      <div class="c1"></div>
+  </div>
+  <div class="b3"><div class="c1"></div>
+  <div class="c1"></div>
+  <div class="c1"></div></div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+ .main{
+    height:100%;
+    background-color:#983C50;
+  }
+  .b1{
+    height:42%;
+    width:100%;
+    background-color:#983C50;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    gap:11px;
+  }
+  .b2{
+    height:16%;
+    width:100%;
+    background-color:#983C50;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+  }
+  .rec{
+    height:30px;
+    width:110px;
+    background-color:#3D101A;
+  }
+  .b3{
+    height:43%;
+    width:100%;
+      background-color:#983C50;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+  }
+  .c1{
+    height:30px;
+    width:30px;
+    background-color:white;
+    border-radius:50%;
+  }
+</style>
