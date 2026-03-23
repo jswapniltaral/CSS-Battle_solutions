@@ -1,0 +1,46 @@
+<div class="main">
+  <div class="b1"></div>
+  <div class="b2"></div>
+  <div class="cuv"></div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+   }
+  .main{
+    height:100%;
+    background-color:#4A9A86;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+  .b1{
+    height:50px;
+    width:50px;
+    background-color:#FAE29E;
+    position:absolute;
+    top:35;
+  }
+  .b2{
+     height:50px;
+    width:100px;
+    background-color:#FAE29E;
+    position:absolute;
+    top:85;
+  }
+  .cuv{
+  width: 160px;
+  height: 160px;
+  border: 50px solid #FAE29E;
+  border-radius: 1000%;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+  position:absolute;
+  left:175;
+  bottom:35;
+}
+</style>
