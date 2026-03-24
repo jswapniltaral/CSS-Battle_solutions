@@ -1,0 +1,63 @@
+<div class="main">
+  <div class="b1 ps "></div>
+  <div class="crc p"></div>
+  <div class="b1 ps1"></div>
+  <div class="crc p1"></div>
+  <div class="b1 ps2"></div>
+  <div class="crc p2"></div>
+  <div class="b1 ps3"></div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100vh;
+    background-color:#4FA9C0;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  .b1{
+    height:40px;
+    width:50px;
+    background-color:#F4DA64;
+    z-index:1;
+  }
+  .crc{
+    height:60px;
+    width:220px;
+    background-color:#2B2A4A;
+    border-radius:50%;
+    position:absolute;
+  }
+  .ps{
+    height:50px;
+    position:relative;
+    top:4
+  }
+  .ps1{
+    position:relative;
+    top:1
+  }
+  .ps2{
+    position:relative;
+    bottom:1
+  }
+  .ps3{
+    position:relative;
+    bottom:4
+  }
+  .p{
+    bottom:200;
+  }
+  .p1{
+    bottom:130;
+  }
+  .p2{
+    bottom:60
+  }
+</style>
