@@ -1,0 +1,46 @@
+<div class="main">
+   <div class="head"></div>
+  <div class="crc">
+  <div class="r"></div>
+  <div class="r"></div>
+  </div>
+</div>
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100%;
+    background-color:#7A60A1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .head{
+    height:70px;
+    width:90px;
+    background-color:#F5DB78;
+    border-radius:999px;
+    position:relative;
+    bottom:5
+  }
+  .crc{
+    height:140px;
+    width:280px;
+    background-color:#F5DB78;
+    border-radius: 2000px 2000px 0 0;
+    position:relative;
+    top:5;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    gap:160px;
+  }
+  .r{
+    height:50px;
+    width:20px;
+    background-color:#7A60A1;
+  }
+</style>
