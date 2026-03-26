@@ -1,0 +1,58 @@
+<div class="main">
+  <span class="d">
+  <div class="c"></div>
+  <div class="c ps"><div class="rec"></div></div>
+  <div class="c"></div>
+  </span>
+  <span class="s">
+  <div class="c1"></div>
+  <div class="c1 ps"><div class="rec"></div></div>
+  <div class="c1"></div>
+  </span>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100%;
+    background-color:#A82828;
+    display:flex;
+  }
+  .s{
+    position:relative;
+    left:80;
+    width:160px;
+  }
+  .c{
+    height:160px;
+    width:140px;
+    background-color:#FEF6E2;
+    border-radius:999px;
+    position:relative;
+    bottom:90;
+    left:30;
+  }
+  .ps{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+    .c1{
+    height:160px;
+    width:140px;
+    background-color:#FEF6E2;
+    border-radius:999px;
+   position:relative;
+    bottom:90;
+      left:10;   
+  }
+  .rec{
+    height:20px;
+    width:100%;
+    background-color:#A82828;
+  }
+  
+</style>
