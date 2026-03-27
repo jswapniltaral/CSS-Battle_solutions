@@ -1,0 +1,42 @@
+<div class="main">
+  <div class="rec ps">
+    <div class="rec1"></div>
+  </div>
+  <div class="rec"><div class="rec2"></div></div>
+</div>
+<style>
+  *{
+    padding:0px;
+   margin:0px;
+   }
+  .main{
+    background-color:#3F4869;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+    gap:40px;
+  }
+  .rec{
+    height:180px;
+    width:180px;
+    background-color:#B5BD49;
+  }
+  .ps{
+    position:relative;
+    top:120
+  }
+  .rec1{
+    height:60px;
+    width:60px;
+    background-color:#FFFFFF;
+    position:relative;
+    left:120;
+  }
+   .rec2{
+    height:60px;
+    width:60px;
+    background-color:#FFFFFF;
+    position:relative;
+    top:120;
+  }
+</style>
