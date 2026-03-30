@@ -1,0 +1,38 @@
+<div class="main">
+  <div class="rec"><div class="u"><div class="u1"></div></div></div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100%;
+    background-color:#12219A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .rec{
+    height:180px;
+    width:240px;
+    border:30px solid #70CCDB;
+    display:flex;
+    justify-content:center;
+  }
+  .u{
+    height:170px;
+    width:120px;
+    background-color:#70CCDB;
+    border-radius:0 0 999px 999px;
+    display:flex;
+    justify-content:center;
+  }
+  .u1{
+    height:140px;
+    width:60px;
+    background-color:#12219A;
+    border-radius:0 0 999px 999px;
+  }
+</style>

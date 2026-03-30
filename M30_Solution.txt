@@ -1,0 +1,38 @@
+<div class="main">
+  <div class="c1"></div>
+  <div class="c2"><div class="c3 c1"></div></div>
+</div>
+
+<style>
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .main{
+    height:100%;
+    background-color:#71366C;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .c1{
+    height:90px;
+    width:90px;
+    background-color:#EDDF5A;
+    border-radius:50%;
+  }
+  .c3{
+    background-color:#71366C;
+  }
+  .c2{
+    height:170px;
+    width:170px;
+    background-color:#EDDF5A;
+    border-radius:50%;
+    position:relative;
+    left:40;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+</style>
